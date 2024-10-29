@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **Free Games Scraper** é um projeto em Flask que coleta e exibe jogos gratuitos disponíveis na Epic Games Store. Utilizando Selenium e o Geckodriver, ele automatiza a extração de dados da página de jogos gratuitos e apresenta essas informações em uma interface web simples e elegante.
+O **Free Games** é um projeto em Flask que coleta e exibe jogos gratuitos disponíveis na Epic Games Store. Utilizando Selenium e o Geckodriver, ele automatiza a extração de dados da página de jogos gratuitos e apresenta essas informações em uma interface web simples e elegante.
 
 ## Tecnologias Utilizadas
 
