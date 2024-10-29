@@ -20,7 +20,7 @@ class EpicGamesSpider:
 
         # Usando caminho relativo para o geckodriver
         gecko_path = os.path.join(os.getcwd(), 'static', 'geckodriver.exe')  # Mude conforme necessário
-        service = Service(executable_path='geckodriver')  # Assumindo que o geckodriver está no PATH do sistema
+        service = Service(executable_path=gecko_path)
         
         self.driver = webdriver.Firefox(service=service, options=options)
 
