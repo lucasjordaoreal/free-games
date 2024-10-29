@@ -11,6 +11,22 @@ O **Free Games Scraper** é um projeto em Flask que coleta e exibe jogos gratuit
 - **Geckodriver**: Um driver para o navegador Firefox, necessário para executar o Selenium.
 - **HTML/CSS**: Para a estrutura e estilo da interface.
 
+## 📁 Estrutura do Projeto
+
+```
+├── static/
+│   └── favicon.ico
+│   └── geckodriver.exe
+│   └── style.css
+└── templates/
+    └── index.html
+├── 1- install requirements.bat
+├── 2- run.bat
+├── app.py
+├── epic_games_spider.py
+└── requirements.txt        
+```
+
 ## Instalação
 
 Para configurar o projeto em sua máquina local, siga as etapas abaixo:
