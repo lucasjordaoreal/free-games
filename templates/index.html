@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogos Grátis da Epic Games</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Link para a fonte Roboto -->
+        <link rel="stylesheet" href="static\style.css">
+        <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    </head>    
+<body>
+    <h1>Jogos Grátis da Epic Games</h1>
+    <div class="games-container">
+        {% for game in games %}
+        <div class="game">
+            <a href="{{ game.link }}" target="_blank">
+                <img src="{{ game.image }}" alt="{{ game.title }}">
+                <h2>{{ game.title }}</h2>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
