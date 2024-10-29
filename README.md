@@ -33,7 +33,7 @@ Para configurar o projeto em sua máquina local, siga as etapas abaixo:
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/seu_usuario/seu_repositorio.git](https://github.com/lucasjordaoreal/free-games.git)](https://github.com/lucasjordaoreal/free-games.git)
+   git clone https://github.com/lucasjordaoreal/free-games.git
    cd free-games
 2. **Crie um ambiente virtual:**
 
