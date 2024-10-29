@@ -1,6 +1,4 @@
-# Free Games
-
-![Logo](static/favicon.ico)
+# 🕹️ Free Games
 
 ## Descrição
 
