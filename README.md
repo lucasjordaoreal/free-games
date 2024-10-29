@@ -33,7 +33,7 @@ Para configurar o projeto em sua máquina local, siga as etapas abaixo:
 **Como executar**
     ```bash
     python app.py
-Acesse a aplicação em seu navegador em: http://127.0.0.1:5000
+## Acesse a aplicação em seu navegador em: http://127.0.0.1:5000
 
 **Contribuição**
 
