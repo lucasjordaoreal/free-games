@@ -11,4 +11,4 @@ def index():
     return render_template('index.html', games=games)  # Passa os jogos para o template
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=False)
