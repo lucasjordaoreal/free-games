@@ -35,5 +35,5 @@ Para configurar o projeto em sua máquina local, siga as etapas abaixo:
     python app.py
 ## Acesse a aplicação em seu navegador em: http://127.0.0.1:5000
 
-## **Contribuição**
+**Contribuição**
 Contribuições são bem-vindas! Se você tem sugestões ou melhorias, sinta-se à vontade para abrir um pull request.
